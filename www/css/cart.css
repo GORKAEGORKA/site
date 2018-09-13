@@ -1,0 +1,264 @@
+﻿.main {
+	height:750px;
+}
+.main h1 {
+	top:80px;
+}
+.block_step {
+	height:70px;
+	border-bottom:1px solid black;
+	position:relative;
+	top:50px;
+	width:98%;
+	margin-left:1%;
+}
+.block_step p {
+	position:absolute;
+	margin-top:8px;
+	margin-left:50px;
+	font-size:25px;
+}
+.block_step > a {
+	position:relative;
+	border:1px solid #D98386;
+	padding-left:7px;
+	padding-right:7px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:5px;
+	float:right;
+	text-decoration:none;
+	color:white;
+	background-color:#DA2027;
+	border-radius:5px;
+}
+.name_step {
+	height:30px;
+}
+.name_step li {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	list-style-type:none;
+}
+.name_step a {
+	text-decoration:none;
+	color:black;
+}
+.name_step a.active {
+	text-decoration:underline;
+}
+.title_list_cart {
+	height:30px;
+	border-bottom:1px solid black;
+	position:relative;
+	top:45px;
+	width:98%;
+	margin-left:1%;
+}
+.title_list_cart div {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	height:18px;
+	text-align:center;
+}
+.title_list_cart div p {
+	font-size:16px;
+	margin:0px;
+}
+.title_img {
+	width:17.2%;
+}
+.title_description {
+	width:54.5%;
+}
+.title_quantity {
+	width:6.9%;
+}
+.title_price {
+	width:14%;
+}
+.block_list_cart {
+	border-bottom: 1px solid black;
+	height: 130px;
+	position:relative;
+	top:50px;
+	width:98%;
+	margin-left:1%;
+}
+.block_list_cart div {
+	float:left;
+	margin-left:5px;
+	height:125px;
+}
+.block_img {
+	width:17.2%;
+}
+.block_description {
+	width:54.5%;
+}
+.block_quantity {
+	width:6.9%;
+}
+.block_price {
+	width:14%;
+}
+.list_name {
+	margin-top:15px;
+}
+.block_img img {
+	width:120px;
+	height:105px;
+}
+.block_quantity ul {
+	margin-top: 31px;
+	list-style-type:none;
+	padding:0px;
+}
+.block_quantity p {
+	text-align:center;
+	cursor: pointer;
+	font-size:15px;
+	margin:1px;
+}
+.block_quantity input {
+	text-align:center;
+	border: 1px solid black;
+	border-radius:5px;
+	width:32px;
+	height:22px;
+}
+.block_price p:nth-child(1){
+	position:relative;
+	font-size:13px;
+	margin-top:40px;
+	margin-left:32.5%;
+}
+.block_price p:nth-child(2){
+	margin-left:30%;
+	margin-top:0px;
+}
+.block_delete a{
+	position:relative;
+	top:50px;
+}
+.amount_money, .button_next {
+	position:relative;
+	top:45px;
+	margin-right:3%;
+	padding:0px;
+}
+.button_next {
+	float:right;
+	border:1px solid black;
+	border-radius:5px;
+	width: 60px;
+    padding-left: 9px;
+}
+.button_next a {
+	text-decoration:none;
+	color:black;
+	margin-right:10px;
+}
+.clear_cart {
+	position:relative;
+	top:45px;
+}
+.product_nav {
+	text-align:center;
+	position:relative;
+	width:400px;
+	padding:0px;
+	top:25px;
+	left:40.5%;
+}
+.product_nav  li{
+	width:30px;
+	height:25px;
+	margin:15px;
+	list-style-type:none;
+	position:relative;
+	bottom:10px;
+	display:inline-block;
+	border:1px solid black;
+	border-radius:5px;
+}
+.product_nav li a{
+	text-decoration:none;
+	color:black;
+}
+.info_radio {
+	position:relative;
+	top:50px;
+	margin-left:300px;
+}
+.info_radio li {
+	list-style-type:none;
+}
+.info_radio input{
+	margin-top:7px;
+	margin-right:7px;
+}
+.info_order {
+	margin-top:25px;
+	position:relative;
+	top:50px;
+	margin-left:300px;
+}
+.info_order li {
+	list-style-type:none;
+}
+.info_order input {
+	margin-left:200px;
+	margin-top:10px;
+}
+.info_order textarea {
+	width: 346px;
+	height:110px;
+	margin-left:200px;
+	margin-top:7px;
+}
+.info_order label {
+	position:absolute;
+	margin-top:7px;
+	font-size: 14px;
+}
+.info_order span {
+	font-size:13px;
+	color:grey;
+}
+#confirm_button_next {
+	margin-right:992px;
+	background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+	width:70px;
+	height:25px;
+	cursor:pointer;
+}
+.completion {
+	position:relative;
+	top:50px;
+	margin-left:40%;
+}
+.completion_title {
+	position:relative;
+	top:50px;
+	text-align:center;
+}
+.completion li {
+	list-style-type:none;
+	margin-top:15px;
+}
+.final_cart {
+	border: 1px solid black;
+    border-radius: 5px;
+	position:relative;
+	top:60px;
+	text-decoration:none;
+	color:black;
+}
+
+
+

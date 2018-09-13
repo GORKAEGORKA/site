@@ -1,0 +1,54 @@
+﻿.main {
+	background: url(../images/content.svg) no-repeat;
+	width:99%;
+	height:1200px;
+	margin-left:0.4%;
+}
+.main h1 {
+	text-align:center;
+	position:relative;
+	top:170px;
+}
+.main > * {
+	position:relative;
+	top:100px;
+}
+.main > img:nth-child(2) {
+	width: 98%;
+    height: 130px;
+    margin-left: 1.095%;
+    padding-top: 100px;
+}
+.main > p:nth-child(3) {
+	width: 97%;
+    height: 150px;
+    margin-left: 3%;
+}
+.main > img:nth-child(4) {
+	width: 98%;
+    height: 130px;
+    margin-left: 1.095%;
+}
+.main > p:nth-child(5) {
+	width: 97%;
+    height: 70px;
+    margin-left: 3%;
+}
+.main h2 {
+	    margin-left: 3%;
+		width:90%;
+}
+.main ul {
+	width: 95%;
+    margin-left: 0.5%;
+}   
+ul li:nth-child(2n+1) {
+	text-align: center;
+    list-style-type: none;
+    text-decoration: underline;
+}
+ul li:nth-child(2n) {
+	text-align: center;
+    list-style-type: none;
+    padding-bottom: 30px;
+}

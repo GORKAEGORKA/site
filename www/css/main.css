@@ -1,0 +1,135 @@
+﻿@font-face {
+font-family: "MullerRegular"; 
+src: url("../MullerRegular.otf"); 
+} 
+html {
+	font-family:"MullerRegular";
+}
+body {
+	margin:0px;
+	padding:0px;
+	background: url(../images/bodyBg.svg);
+}
+p, a, li {
+	font-size:20px;
+}
+.header {
+	width:100%;
+	height:300px;
+	background: url(../images/headerBg.svg);
+}
+h1 {
+	margin:0px;
+	text-align:right;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.header .logo img {
+	width:130px;
+	height:130px;
+	position:realtive;
+	float:right;
+	margin-right:50px;
+}
+.basket, .backG {
+	position:relative;
+	float:right;
+	right:100px;
+	text-decoration:none;
+	color:black;
+}
+.menu {
+	background: url(../images/menuBg.svg) no-repeat;
+	width:100%;
+	height:120px;
+	position:relative;
+	top:130px;
+}
+.menu div {
+	background: url(../images/menu.svg) no-repeat;
+	width:150px;
+	height:75px;
+	position:relative;
+	float:left;
+	left:82.25px;
+	margin-left:120px;
+	margin-top:22.5px;
+}
+.menu div p {
+	text-align:center;
+	text-decoration:none;
+	color:black;
+}
+.main {
+	background: url(../images/content.svg) no-repeat;
+	width:99%;
+	height:600px;
+	margin-left:0.4%;
+}
+.main h1 {
+	text-align:center;
+	position:relative;
+	top:60px;
+}
+.footer {
+	background: url(../images/footerBg.svg) no-repeat;
+	width:100%;
+	height:400px;
+}
+.footer > p {
+	float:left;
+	padding-top: 360px;
+	margin-bottom:0px;
+}
+.footer .logo img {
+	position:relative;
+	top:250px;
+	width:100px;
+	height:100px;
+    right: 250px;
+}
+.navigation {
+    position: relative;
+	top:265px;
+    float: right;
+    width: 400px;
+    height: 135px;
+    margin-right: 50px;
+    text-align: right;
+}
+.navigation ul {
+	column-count:2;
+	height:100px;
+	margin:0px;
+}
+.navigation a {
+	list-style:none;
+	text-decoration:none;
+	color:black;
+}
+.navigation p {
+	margin:0px;
+}
+.social {
+	position:relative;
+	width:180px;
+	height:130px;
+	top:250px;
+	float:right;
+}
+.social p {
+	margin:5px;
+}
+.social img {
+	width:35px;
+	height:35px;
+}
+
+
+
+
+
+
+
+
+

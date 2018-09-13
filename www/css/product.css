@@ -1,0 +1,78 @@
+﻿.main {
+	height:1200px;
+}
+.main h1 {
+	text-align:center;
+	position:relative;
+	top:130px;
+}
+.flowers, .bouquets {
+	text-decoration:none;
+	color:black;
+}
+.product {
+	height:1006px;
+}
+.product li {
+	margin:24px;
+	position:relative;
+	top:130px;
+	width:400px;
+	height:400px;
+	float:left;
+	list-style-type:none;
+	
+}
+.product li img {
+	width:150px;
+	height:150px;
+	float:left;
+}
+.product li a {
+	text-decoration:none;
+	color:black;
+}
+.name {
+	margin:0px;
+}
+.in_basket {
+	margin-left:30%;
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px;
+	cursor:pointer;
+	background:none;
+}
+.in_basket_b {
+	margin-left:30%;
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px;
+	position:relative;
+	bottom:120px;
+	cursor:pointer;
+	background:none;
+}
+.block_product_description {
+	width:400px;
+	height:300px;
+}
+.product_nav {
+	text-align:center;
+	position:relative;
+	top:-10px;
+}
+.product_nav  li{
+	width:30px;
+	height:25px;
+	margin:15px;
+	list-style-type:none;
+	position:relative;
+	display:inline-block;
+	border:1px solid black;
+	border-radius:5px;
+}
+.product_nav li a{
+	text-decoration:none;
+	color:black;
+}

@@ -1,0 +1,48 @@
+﻿.main {
+	background: url(../images/content.svg) no-repeat;
+	width:99%;
+	height:700px;
+	margin-left:0.4%;
+}
+.main h1 {
+	text-align:center;
+	position:relative;
+	top:170px;
+}
+.main > * {
+	position:relative;
+	top:100px;
+}
+.main form {
+	margin-left: 40%;
+    margin-top: 10%;
+}
+.main label:nth-child(1) {
+	position: absolute;
+    top: 2px;
+}
+.main input:nth-child(2) {
+    position: absolute;
+    left: 160px;
+}
+.main label:nth-child(4) {
+	position: absolute;
+    top: 34px;
+}
+.main input:nth-child(5){
+    position: absolute;
+    left: 160px;
+    top: 30px;
+}
+.bttn {
+	margin-top: 40px;
+    margin-left: 150px;
+}
+.error {
+    position: absolute;
+    top: 550px;
+    left: 40%;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}

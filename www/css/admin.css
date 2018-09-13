@@ -1,0 +1,43 @@
+﻿.section {
+	border:1px solid black;
+	width:80%;
+	height:auto;
+	margin-left:10%;
+}
+table {
+	width:100%;
+	height:auto;
+	padding:10px;
+	border-collapse:collapse;
+}
+td {
+	padding:10px;
+	border:1px solid black;
+}
+img {
+	width:100px;
+	height:100px;
+}
+.active_product {
+	width:100%;
+	height:inherit;
+	padding-bottom:15px;
+}
+.active_product form input, textarea {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 300px;
+    height: 20px;
+}
+.active_product form label {
+    position: absolute;
+    text-align: right;
+    padding-top: 25px;
+}
+.active_product h2 {
+	text-align:center;
+}
+.active_product form {
+	padding-left:30%;
+}
